@@ -1,0 +1,27 @@
+{
+  "name": "totaljs-4-empty-ts",
+  "version": "1.0.0",
+  "description": "Empty totaljs 4 typescript project",
+  "author": "DATAGNI Armand",
+  "license": "ISC",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "ts-node index.ts",
+    "build": "tsc",
+    "start:dev": "cd dist && node index.js",
+    "start:prod": "cd dist && node index.js --release"
+  },
+  "dependencies": {
+    "total4": "latest"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.12",
+    "ts-node": "^10.9.2"
+  },
+  "keywords": [
+    "empty",
+    "total.js",
+    "typescript"
+  ]
+}
