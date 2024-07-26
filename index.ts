@@ -26,6 +26,6 @@ const options = {};
 // options.threads = '/api/';
 // options.logs = 'isolated';
 
-const type = process.argv.indexOf('--release', 1) !== -1 || process.argv.indexOf('release', 1) !== -1 ? 'release' : 'debug';
+const type = process.argv.indexOf('--release', 1) !== -1 ? 'release' : 'debug';
 
 require('total4/' + type)(options);
